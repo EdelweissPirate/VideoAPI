@@ -1,17 +1,22 @@
 {
-  "name": "aws-api-express",
+  "name": "video-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "dev": "node .",
+    "install": "node service/service_install.js",
+    "remove": "node service/service_remove.js",
+    "wake": "node service/service_wake.js",
+    "stop": "node service/service_kill.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "express-async-handler": "^1.2.0"
+    "express-async-handler": "^1.2.0",
+    "node-windows": "^1.0.0-beta.8"
   }
 }
