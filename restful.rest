@@ -1,0 +1,7 @@
+GET https://localhost:3001/api
+content-type: application/json
+
+###
+
+GET https://localhost:3001/api/getVideo?videoName=English/VACATI/ARP-L_LESSON_2_IMPLEMENTATION_PART_1
+content-type: application/json
